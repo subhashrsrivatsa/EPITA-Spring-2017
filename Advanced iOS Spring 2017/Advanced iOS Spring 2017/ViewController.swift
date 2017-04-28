@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         let weather = WeatherFetch()
-        weather.getWeather(city: "")
+        weather.getWeather(city: "Paris")
     }
 
     override func didReceiveMemoryWarning() {
