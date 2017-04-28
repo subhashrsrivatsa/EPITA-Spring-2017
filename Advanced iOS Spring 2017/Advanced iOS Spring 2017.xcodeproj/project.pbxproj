@@ -13,6 +13,7 @@
 		3C0B8CC91EA7FD9700F93394 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C0B8CC81EA7FD9700F93394 /* Assets.xcassets */; };
 		3C0B8CCC1EA7FD9700F93394 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C0B8CCA1EA7FD9700F93394 /* LaunchScreen.storyboard */; };
 		3C0B8CD71EA7FD9700F93394 /* Advanced_iOS_Spring_2017Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0B8CD61EA7FD9700F93394 /* Advanced_iOS_Spring_2017Tests.swift */; };
+		3C30FDBF1EB2825700225C75 /* WeatherFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C30FDBE1EB2825700225C75 /* WeatherFetch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		3C0B8CD21EA7FD9700F93394 /* Advanced iOS Spring 2017Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Advanced iOS Spring 2017Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C0B8CD61EA7FD9700F93394 /* Advanced_iOS_Spring_2017Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advanced_iOS_Spring_2017Tests.swift; sourceTree = "<group>"; };
 		3C0B8CD81EA7FD9700F93394 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C30FDBE1EB2825700225C75 /* WeatherFetch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherFetch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				3C0B8CC11EA7FD9700F93394 /* AppDelegate.swift */,
 				3C0B8CC31EA7FD9700F93394 /* ViewController.swift */,
+				3C30FDBE1EB2825700225C75 /* WeatherFetch.swift */,
 				3C0B8CC51EA7FD9700F93394 /* Main.storyboard */,
 				3C0B8CC81EA7FD9700F93394 /* Assets.xcassets */,
 				3C0B8CCA1EA7FD9700F93394 /* LaunchScreen.storyboard */,
@@ -201,6 +204,7 @@
 			files = (
 				3C0B8CC41EA7FD9700F93394 /* ViewController.swift in Sources */,
 				3C0B8CC21EA7FD9700F93394 /* AppDelegate.swift in Sources */,
+				3C30FDBF1EB2825700225C75 /* WeatherFetch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,6 +410,7 @@
 				3C0B8CDD1EA7FD9700F93394 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C0B8CDE1EA7FD9700F93394 /* Build configuration list for PBXNativeTarget "Advanced iOS Spring 2017Tests" */ = {
 			isa = XCConfigurationList;
@@ -414,6 +419,7 @@
 				3C0B8CE01EA7FD9700F93394 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
