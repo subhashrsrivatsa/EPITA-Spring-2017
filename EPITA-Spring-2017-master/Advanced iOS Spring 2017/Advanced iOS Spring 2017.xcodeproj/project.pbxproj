@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C0B8CC21EA7FD9700F93394 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0B8CC11EA7FD9700F93394 /* AppDelegate.swift */; };
+		3C0B8CC41EA7FD9700F93394 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0B8CC31EA7FD9700F93394 /* ViewController.swift */; };
+		3C0B8CC71EA7FD9700F93394 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C0B8CC51EA7FD9700F93394 /* Main.storyboard */; };
+		3C0B8CC91EA7FD9700F93394 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C0B8CC81EA7FD9700F93394 /* Assets.xcassets */; };
+		3C0B8CD71EA7FD9700F93394 /* Advanced_iOS_Spring_2017Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0B8CD61EA7FD9700F93394 /* Advanced_iOS_Spring_2017Tests.swift */; };
+		3C30FDBF1EB2825700225C75 /* WeatherFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C30FDBE1EB2825700225C75 /* WeatherFetch.swift */; };
+		AC2DC8C21EE07CCF001461D5 /* WeatherDetailScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2DC8C11EE07CCF001461D5 /* WeatherDetailScreenViewController.swift */; };
+		AC2DC8C41EE0874D001461D5 /* AddCityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2DC8C31EE0874D001461D5 /* AddCityViewController.swift */; };
+		AC85334B1ECCB5E9008C354E /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC85334A1ECCB5E9008C354E /* Weather.swift */; };
+		AC85334F1ECCC3E8008C354E /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC85334E1ECCC3E8008C354E /* TableViewController.swift */; };
+		ACA843B41ED5F17B0000B16A /* WeatherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA843B31ED5F17B0000B16A /* WeatherTableViewCell.swift */; };
+		ACEAA2611EFAD57800ABD542 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACEAA2601EFAD57800ABD542 /* LaunchScreen.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C0B8CD31EA7FD9700F93394 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C0B8CB61EA7FD9700F93394 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C0B8CBD1EA7FD9700F93394;
+			remoteInfo = "Advanced iOS Spring 2017";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C0B8CBE1EA7FD9700F93394 /* Advanced iOS Spring 2017.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Advanced iOS Spring 2017.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C0B8CC11EA7FD9700F93394 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3C0B8CC31EA7FD9700F93394 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3C0B8CC61EA7FD9700F93394 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C0B8CC81EA7FD9700F93394 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C0B8CCD1EA7FD9700F93394 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C0B8CD21EA7FD9700F93394 /* Advanced iOS Spring 2017Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Advanced iOS Spring 2017Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C0B8CD61EA7FD9700F93394 /* Advanced_iOS_Spring_2017Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advanced_iOS_Spring_2017Tests.swift; sourceTree = "<group>"; };
+		3C0B8CD81EA7FD9700F93394 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C30FDBE1EB2825700225C75 /* WeatherFetch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherFetch.swift; sourceTree = "<group>"; };
+		AC2DC8C11EE07CCF001461D5 /* WeatherDetailScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WeatherDetailScreenViewController.swift; path = ../WeatherDetailScreenViewController.swift; sourceTree = "<group>"; };
+		AC2DC8C31EE0874D001461D5 /* AddCityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCityViewController.swift; sourceTree = "<group>"; };
+		AC85334A1ECCB5E9008C354E /* Weather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		AC85334E1ECCC3E8008C354E /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		ACA843B31ED5F17B0000B16A /* WeatherTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WeatherTableViewCell.swift; path = ../WeatherTableViewCell.swift; sourceTree = "<group>"; };
+		ACEAA2601EFAD57800ABD542 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C0B8CBB1EA7FD9700F93394 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C0B8CCF1EA7FD9700F93394 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C0B8CB51EA7FD9700F93394 = {
+			isa = PBXGroup;
+			children = (
+				3C0B8CC01EA7FD9700F93394 /* Advanced iOS Spring 2017 */,
+				3C0B8CD51EA7FD9700F93394 /* Advanced iOS Spring 2017Tests */,
+				3C0B8CBF1EA7FD9700F93394 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C0B8CBF1EA7FD9700F93394 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C0B8CBE1EA7FD9700F93394 /* Advanced iOS Spring 2017.app */,
+				3C0B8CD21EA7FD9700F93394 /* Advanced iOS Spring 2017Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C0B8CC01EA7FD9700F93394 /* Advanced iOS Spring 2017 */ = {
+			isa = PBXGroup;
+			children = (
+				AC2DC8C11EE07CCF001461D5 /* WeatherDetailScreenViewController.swift */,
+				ACA843B31ED5F17B0000B16A /* WeatherTableViewCell.swift */,
+				3C0B8CC11EA7FD9700F93394 /* AppDelegate.swift */,
+				3C0B8CC31EA7FD9700F93394 /* ViewController.swift */,
+				3C30FDBE1EB2825700225C75 /* WeatherFetch.swift */,
+				3C0B8CC51EA7FD9700F93394 /* Main.storyboard */,
+				3C0B8CC81EA7FD9700F93394 /* Assets.xcassets */,
+				3C0B8CCD1EA7FD9700F93394 /* Info.plist */,
+				AC85334A1ECCB5E9008C354E /* Weather.swift */,
+				AC85334E1ECCC3E8008C354E /* TableViewController.swift */,
+				AC2DC8C31EE0874D001461D5 /* AddCityViewController.swift */,
+				ACEAA2601EFAD57800ABD542 /* LaunchScreen.xib */,
+			);
+			path = "Advanced iOS Spring 2017";
+			sourceTree = "<group>";
+		};
+		3C0B8CD51EA7FD9700F93394 /* Advanced iOS Spring 2017Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3C0B8CD61EA7FD9700F93394 /* Advanced_iOS_Spring_2017Tests.swift */,
+				3C0B8CD81EA7FD9700F93394 /* Info.plist */,
+			);
+			path = "Advanced iOS Spring 2017Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C0B8CBD1EA7FD9700F93394 /* Advanced iOS Spring 2017 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C0B8CDB1EA7FD9700F93394 /* Build configuration list for PBXNativeTarget "Advanced iOS Spring 2017" */;
+			buildPhases = (
+				3C0B8CBA1EA7FD9700F93394 /* Sources */,
+				3C0B8CBB1EA7FD9700F93394 /* Frameworks */,
+				3C0B8CBC1EA7FD9700F93394 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Advanced iOS Spring 2017";
+			productName = "Advanced iOS Spring 2017";
+			productReference = 3C0B8CBE1EA7FD9700F93394 /* Advanced iOS Spring 2017.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C0B8CD11EA7FD9700F93394 /* Advanced iOS Spring 2017Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C0B8CDE1EA7FD9700F93394 /* Build configuration list for PBXNativeTarget "Advanced iOS Spring 2017Tests" */;
+			buildPhases = (
+				3C0B8CCE1EA7FD9700F93394 /* Sources */,
+				3C0B8CCF1EA7FD9700F93394 /* Frameworks */,
+				3C0B8CD01EA7FD9700F93394 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C0B8CD41EA7FD9700F93394 /* PBXTargetDependency */,
+			);
+			name = "Advanced iOS Spring 2017Tests";
+			productName = "Advanced iOS Spring 2017Tests";
+			productReference = 3C0B8CD21EA7FD9700F93394 /* Advanced iOS Spring 2017Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C0B8CB61EA7FD9700F93394 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "___AdvancediOS___";
+				TargetAttributes = {
+					3C0B8CBD1EA7FD9700F93394 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+					3C0B8CD11EA7FD9700F93394 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3C0B8CBD1EA7FD9700F93394;
+					};
+				};
+			};
+			buildConfigurationList = 3C0B8CB91EA7FD9700F93394 /* Build configuration list for PBXProject "Advanced iOS Spring 2017" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C0B8CB51EA7FD9700F93394;
+			productRefGroup = 3C0B8CBF1EA7FD9700F93394 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C0B8CBD1EA7FD9700F93394 /* Advanced iOS Spring 2017 */,
+				3C0B8CD11EA7FD9700F93394 /* Advanced iOS Spring 2017Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C0B8CBC1EA7FD9700F93394 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACEAA2611EFAD57800ABD542 /* LaunchScreen.xib in Resources */,
+				3C0B8CC91EA7FD9700F93394 /* Assets.xcassets in Resources */,
+				3C0B8CC71EA7FD9700F93394 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C0B8CD01EA7FD9700F93394 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C0B8CBA1EA7FD9700F93394 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACA843B41ED5F17B0000B16A /* WeatherTableViewCell.swift in Sources */,
+				AC85334B1ECCB5E9008C354E /* Weather.swift in Sources */,
+				AC2DC8C21EE07CCF001461D5 /* WeatherDetailScreenViewController.swift in Sources */,
+				3C0B8CC41EA7FD9700F93394 /* ViewController.swift in Sources */,
+				3C0B8CC21EA7FD9700F93394 /* AppDelegate.swift in Sources */,
+				AC85334F1ECCC3E8008C354E /* TableViewController.swift in Sources */,
+				3C30FDBF1EB2825700225C75 /* WeatherFetch.swift in Sources */,
+				AC2DC8C41EE0874D001461D5 /* AddCityViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C0B8CCE1EA7FD9700F93394 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C0B8CD71EA7FD9700F93394 /* Advanced_iOS_Spring_2017Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C0B8CD41EA7FD9700F93394 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C0B8CBD1EA7FD9700F93394 /* Advanced iOS Spring 2017 */;
+			targetProxy = 3C0B8CD31EA7FD9700F93394 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C0B8CC51EA7FD9700F93394 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C0B8CC61EA7FD9700F93394 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C0B8CD91EA7FD9700F93394 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C0B8CDA1EA7FD9700F93394 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C0B8CDC1EA7FD9700F93394 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Advanced iOS Spring 2017/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jjuzcateguir.spring2017.Advanced-iOS-Spring-2017";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3C0B8CDD1EA7FD9700F93394 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Advanced iOS Spring 2017/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jjuzcateguir.spring2017.Advanced-iOS-Spring-2017";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3C0B8CDF1EA7FD9700F93394 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Advanced iOS Spring 2017Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jjuzcateguir.spring2017.Advanced-iOS-Spring-2017Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Advanced iOS Spring 2017.app/Advanced iOS Spring 2017";
+			};
+			name = Debug;
+		};
+		3C0B8CE01EA7FD9700F93394 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Advanced iOS Spring 2017Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jjuzcateguir.spring2017.Advanced-iOS-Spring-2017Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Advanced iOS Spring 2017.app/Advanced iOS Spring 2017";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C0B8CB91EA7FD9700F93394 /* Build configuration list for PBXProject "Advanced iOS Spring 2017" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C0B8CD91EA7FD9700F93394 /* Debug */,
+				3C0B8CDA1EA7FD9700F93394 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C0B8CDB1EA7FD9700F93394 /* Build configuration list for PBXNativeTarget "Advanced iOS Spring 2017" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C0B8CDC1EA7FD9700F93394 /* Debug */,
+				3C0B8CDD1EA7FD9700F93394 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C0B8CDE1EA7FD9700F93394 /* Build configuration list for PBXNativeTarget "Advanced iOS Spring 2017Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C0B8CDF1EA7FD9700F93394 /* Debug */,
+				3C0B8CE01EA7FD9700F93394 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C0B8CB61EA7FD9700F93394 /* Project object */;
+}
